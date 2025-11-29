@@ -1,0 +1,69 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f0d6a29c-cd2b-4ef5-82f5-e123408ebca8")
+	(paper "A4")
+	(lib_symbols)
+	(text "Oscillator"
+		(exclude_from_sim no)
+		(at 22.606 14.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 4 4 1)
+			)
+		)
+		(uuid "dfe6f9fc-7b31-4797-860e-fb857dee171b")
+	)
+	(bus
+		(pts
+			(xy 17.78 16.51) (xy 63.5 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 8 1)
+		)
+		(uuid "12fbcf0f-df7d-4689-99fa-86df149b6777")
+	)
+	(bus
+		(pts
+			(xy 63.5 55.88) (xy 17.78 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 8 1)
+		)
+		(uuid "8bc9b2bc-f76f-4df8-b1df-1011efd47f89")
+	)
+	(bus
+		(pts
+			(xy 63.5 16.51) (xy 63.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 8 1)
+		)
+		(uuid "e61513b0-cda6-4966-9d6c-7c057c94384d")
+	)
+	(bus
+		(pts
+			(xy 17.78 16.51) (xy 17.78 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 4 8 1)
+		)
+		(uuid "fe78ccd4-6450-4791-bb29-fd1eec3935a9")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
